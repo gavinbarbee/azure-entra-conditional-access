@@ -1,0 +1,15 @@
+tenant_id       = "00000000-0000-0000-0000-000000000000"
+break_glass_upn = "gavinbarbee-breakglass@<tenant>.onmicrosoft.com"
+
+# My public egress IP as a /32
+trusted_ip_cidrs = ["203.0.113.10/32"]
+
+# blocked_countries       = ["KP", "IR", "SY", "CU", "RU"]
+# ca101_include_all_users = false
+
+policy_states = {
+  ca101 = "enabledForReportingButNotEnforced"
+  ca102 = "enabledForReportingButNotEnforced"
+  ca103 = "enabledForReportingButNotEnforced"
+  ca104 = "enabledForReportingButNotEnforced"
+}
